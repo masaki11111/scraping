@@ -29,14 +29,14 @@ def login():
 
     #メアドとパスワードを入力
     """
-    browser.find_element_by_name('username').send_keys('care24_animal')#ユーザー名を入力してください
+    browser.find_element_by_name('username').send_keys('')#ユーザー名を入力してください
     time.sleep(5)
-    browser.find_element_by_name('password').send_keys('evnLEX8P')#パスワードを入力してください
+    browser.find_element_by_name('password').send_keys('')#パスワードを入力してください
     time.sleep(5)
     """
-    browser.find_element_by_name('username').send_keys('shokoshi2')#ユーザー名を入力してください
+    browser.find_element_by_name('username').send_keys('')#ユーザー名を入力してください
     time.sleep(random.randint(5,10))
-    browser.find_element_by_name('password').send_keys('evnLEX8P')#パスワードを入力してください
+    browser.find_element_by_name('password').send_keys('')#パスワードを入力してください
     time.sleep(random.randint(5,10))
     #ログインボタンを押す
     browser.find_element_by_class_name('L3NKy       ').click()
