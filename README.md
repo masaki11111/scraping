@@ -12,12 +12,14 @@ ref:https://www.kpopmonster.jp/?p=27134
 ## rakuten
 This code can do web scraping to reviews of EC site(rakuten)  
   
-<img src="path/to/rakuten2.png" width="480px">
+<img src="path/to/rakuten2.png" width="480px">  
 URL: https://review.rakuten.co.jp/item/1/206971_10000130/1.1/  
+
 ### output
 Score and text of reviews are got.  
   
 <img src="path/to/rakuten.png" width="480px">  
+
 ## mercari
 For uploading and cancellation on time you decided 
 
