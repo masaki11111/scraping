@@ -48,4 +48,8 @@ selenium have no ability to access http header.
 selenium-wire is a library to modify it.  
 this code can modify the referer.
 
+【reference】
+https://stackoverflow.com/questions/15645093/setting-request-headers-in-selenium
+https://github.com/wkeeling/selenium-wire/issues/6
+https://github.com/wkeeling/selenium-wire/issues/7
 
