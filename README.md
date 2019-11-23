@@ -42,3 +42,10 @@ login processing to instagram by gas and get my hompage.
 
 ![login](https://user-images.githubusercontent.com/52119206/69416297-a46bcc80-0d59-11ea-9f3c-908a1d0df96e.png)
 
+## selenium-wire
+this is for access to http header with selenium-like library(seleniumwire)  
+selenium have no ability to access http header.  
+selenium-wire is a library to modify it.  
+this code can modify the referer.
+
+
