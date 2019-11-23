@@ -1,0 +1,22 @@
+from seleniumwire import webdriver
+
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+#chrome_options.add_argument("--disable-gpu")
+#chrome_options.add_argument("--no-sandbox")
+
+browser = webdriver.Chrome(executable_path=r"chromedriverのパス",chrome_options=chrome_options)
+
+browser.header_overrides = {
+    'Referer': '任意のURL',
+}
+browser.get('https://www.google.co.jp/search?q=chrome')
+
+browser.save_screenshot('screenshot.png')
+# Access requests via the `requests` attribute
+for request in browser.requests:
+    if request.response:
+        print(
+            request.headers['Referer']
+        )
+browser.quit()
